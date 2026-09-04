@@ -5,6 +5,9 @@ import json
 import logging
 
 import server as core
+import listen_together
+
+listen_together.register(core)
 
 logger = logging.getLogger("mcp-netease-chatgpt")
 
